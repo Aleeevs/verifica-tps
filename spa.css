@@ -23,3 +23,10 @@
     clear: both;
     display: table;
 }
+
+.footer {
+    background-color: #8b7575; /* Colore di sfondo del footer (può essere personalizzato) */
+    padding: 20px; /* Padding del footer (può essere personalizzato) */
+    text-align: center;
+
+}
