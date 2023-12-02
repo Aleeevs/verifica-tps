@@ -1,0 +1,73 @@
+nav {
+    margin-top: 25px;
+    background-color: #808080;
+    color: white;
+    padding: 15px; 
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    margin-right: 35px;
+
+}
+
+a {
+    text-decoration: solid;
+    color: white;
+}
+
+body{
+    text-align: center;
+    background-color: white;
+}
+
+h1{
+    color: red;
+    font-style: italic;
+}
+
+h2{
+    color: chocolate;
+}
+
+div{
+    display: flex;
+}
+
+#ImmagineStanza1{
+    width: 40%;
+}
+
+#ImmagineStanza2{
+    width: 40%;
+}
+
+#ImmagineStanza3{
+    width: 40%;
+}
+
+#Relax{
+    color: red;
+}
+
+#Wedding{
+    color: aqua;
+}
+
+#Secret{
+    color: blueviolet;
+}
+
+p{
+    text-align: left;
+}
