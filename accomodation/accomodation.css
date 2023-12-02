@@ -56,6 +56,10 @@ div{
     width: 80%;
 }
 
+h3{
+    margin-left: 20px;
+}
+
 #Relax{
     color: red;
 }
@@ -70,6 +74,7 @@ div{
 
 p{
     text-align: left;
+    margin-left: 30px;
 }
 
 footer{
