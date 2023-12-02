@@ -24,7 +24,31 @@ li a {
     font-size: large;
     text-decoration: none;
 }
+
+li p {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
   
 li a:hover {
     background-color: #111;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 50px 50px;
+}
+
+article {
+    font-size: 14;
+}
+
+img {
+    width: 50%;
 }
