@@ -1,0 +1,25 @@
+.container {
+    max-width: 600px; /* Imposta la larghezza massima del contenitore */
+    margin: 0 auto; /* Centra il contenitore orizzontalmente */
+    overflow: hidden; /* Risolve il problema del float */
+}
+
+/* Stile per l'immagine */
+.image {
+    float: left; /* Allinea l'immagine a destra */
+    max-width: 40%; /* Imposta la larghezza massima dell'immagine (può essere modificato) */
+    margin-left: 20px; /* Aggiunge uno spazio tra l'immagine e il testo */
+}
+
+/* Stile per il testo */
+.text {
+    float: right; /* Allinea il testo a sinistra */
+    max-width: 60%; /* Imposta la larghezza massima del testo (può essere modificato) */
+}
+
+/* Pulisce il float dopo gli elementi allineati */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
